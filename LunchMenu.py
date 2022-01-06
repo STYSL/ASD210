@@ -87,8 +87,8 @@ while menuChoice != 'D':
                 grandTotal = (totalCostApples + totalCostCheese + totalCostBread)
                 print("\nYour current order is $", grandTotal, "for: ")
                 print(numApples, "Apples: $", totalCostApples)
+                print(numBread, "Loaves of Bread: $", totalCostBread)                
                 print(numCheese, "Pounds of Cheese: $", totalCostCheese)
-                print(numBread, "Loaves of Bread: $", totalCostBread)
                 print("Remaining budget: $",balance)
                 continue #CONTINUE PLACING ORDER UNTIL 'D' ENTERED
             
@@ -96,8 +96,8 @@ while menuChoice != 'D':
             elif balance > 0:
                 print("\nYour current order is $", grandTotal, "for: ")
                 print(numApples, "Apples: $", totalCostApples)
+                print(numBread, "Loaves of Bread: $", totalCostBread)                
                 print(numCheese, "Pounds of Cheese: $", totalCostCheese)
-                print(numBread, "Loaves of Bread: $", totalCostBread)
                 print("Remaining budget: $",balance)
             else:
                 continue #CONTINUE PLACING ORDER UNTIL 'D' ENTERED
@@ -119,8 +119,8 @@ while menuChoice != 'D':
                 grandTotal = (totalCostApples + totalCostCheese + totalCostBread)
                 print("\nYour current order is $", grandTotal, "for: ")
                 print(numApples, "Apples: $", totalCostApples)
+                print(numBread, "Loaves of Bread: $", totalCostBread)                
                 print(numCheese, "Pounds of Cheese: $", totalCostCheese)
-                print(numBread, "Loaves of Bread: $", totalCostBread)
                 print("Remaining budget: $",balance)
                 print("")
                 continue #CONTINUE PLACING ORDER UNTIL 'D' ENTERED
@@ -129,8 +129,8 @@ while menuChoice != 'D':
             elif balance > 0:
                 print("Your current order is $", grandTotal, "for: ")
                 print(numApples, "Apples: $", totalCostApples)
+                print(numBread, "Loaves of Bread: $", totalCostBread)                
                 print(numCheese, "Pounds of Cheese: $", totalCostCheese)
-                print(numBread, "Loaves of Bread: $", totalCostBread)
                 print("Remaining budget: $",balance)
             else:
                 continue #CONTINUE PLACING ORDER UNTIL 'D' ENTERED
@@ -152,8 +152,8 @@ while menuChoice != 'D':
                 grandTotal = (totalCostApples + totalCostCheese + totalCostBread)
                 print("\nYour current order is $", grandTotal, "for: ")
                 print(numApples, "Apples: $", totalCostApples)
+                print(numBread, "Loaves of Bread: $", totalCostBread)                
                 print(numCheese, "Pounds of Cheese: $", totalCostCheese)
-                print(numBread, "Loaves of Bread: $", totalCostBread)
                 print("Remaining budget: $",balance)
                 continue #CONTINUE PLACING ORDER UNTIL 'D' ENTERED
             
@@ -161,8 +161,8 @@ while menuChoice != 'D':
             elif balance > 0:
                 print("\nYour current order is $", grandTotal, "for: ")
                 print(numApples, "Apples: $", totalCostApples)
+                print(numBread, "Loaves of Bread: $", totalCostBread)                
                 print(numCheese, "Pounds of Cheese: $", totalCostCheese)
-                print(numBread, "Loaves of Bread: $", totalCostBread)
                 print("Remaining budget: $",balance)
             else:
                 continue #CONTINUE PLACING ORDER UNTIL 'D' ENTERED     
