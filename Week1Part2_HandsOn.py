@@ -141,11 +141,11 @@ mnthNum = 0
 crntBalance = pPrice - (.1 * pPrice) #the current total balance owed
 #PRINT COLUMN HEADERS:
 print("\nAfter a 10% down payment, your payment plan is: ")
+#CREATE THE REQUIRED COLUMN HEADERS:
 print("\nMONTH  BALANCE     INTEREST   PRINCIPAL   PAYMENT   REMAINING BALANCE\n")
 #ENTER WHILE LOOP:
 
 while crntBalance > 0:
-    #CREATE THE REQUIRED COLUMN HEADERS:
     mnthNum += 1 #the month number (beginning with 1)
     #crntBalance = pPrice - (.1 * pPrice) #the current total balance owed
     MONTHPAYMENT = .05 * (pPrice - (.1 * pPrice)) #the payment for that month. Monthly payments are 5% of the listed purchase price, minus the down payment. 
