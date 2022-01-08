@@ -139,12 +139,10 @@ ANNUALINTRATE = .12
 pPrice = float(input("Enter the purchase price: "))
 mnthNum = 0
 crntBalance = pPrice - (.1 * pPrice) #the current total balance owed
-#PRINT COLUMN HEADERS:
 print("\nAfter a 10% down payment, your payment plan is: ")
-#CREATE THE REQUIRED COLUMN HEADERS:
+#PRINT COLUMN HEADERS:
 print("\nMONTH  BALANCE     INTEREST   PRINCIPAL   PAYMENT   REMAINING BALANCE\n")
-#ENTER WHILE LOOP:
-
+#ENTER WHILE LOOP TO CREATE AMOUNTS FOR TABLE:
 while crntBalance > 0:
     mnthNum += 1 #the month number (beginning with 1)
     #crntBalance = pPrice - (.1 * pPrice) #the current total balance owed
@@ -155,6 +153,7 @@ while crntBalance > 0:
     mnthPrincipal = round(mnthPrincipal, 2) #Round the float to two decimals
     postBalance = crntBalance - MONTHPAYMENT + mnthInterest #the balance remaining after payment
     postBalance = round(postBalance, 2)
+    #PRINT DATA FOR THE REQUIRED COLUMN HEADERS:
     print("%-7d%-12.2f%-11.2f%-12.2f%-10.2d%-17.2f" % (mnthNum, crntBalance, mnthInterest, mnthPrincipal, MONTHPAYMENT, postBalance))
     crntBalance = postBalance
 print("")
