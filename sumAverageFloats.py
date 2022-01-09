@@ -1,8 +1,8 @@
 """
-Program: sum_v2.py
-Project 3.9
+Original Program: sum.py
+Modified by: F. Rustique,Jr.
 
-Computes the sum and average of a series of input numbers.
+Computes the sum and average of a series of input numbers that are only even.
 """
 #import os to use clearConsole method:
 import os
