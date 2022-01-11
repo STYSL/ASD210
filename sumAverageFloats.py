@@ -1,7 +1,7 @@
 """
 Original Program: sum.py
 Modified by: F. Rustique,Jr.
-
+Assignment: Week1Part2 Exercise2
 Computes the sum and average of a series of input numbers that are only even.
 """
 #import os to use clearConsole method:
