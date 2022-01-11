@@ -139,5 +139,5 @@ print("")
 print("""\nIf you made any correct guesses for a lotto number,
 here is where you made them. Incorrect guesses are zero:""")
 print(guessedNumbers)
-print("\nYou made ", matches ,"matches.")
+print("\nYou made", matches ,"matches.")
 print("\nThanks for playing!\n")
