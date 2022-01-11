@@ -1,6 +1,6 @@
 """
 CIAT Class:  ASD210 Fundamentals of Python - First Programs
-STUDENT: Felicito A. Rustique Jr.
+STUDENT: F.Rustique Jr.
 INSTRUCTOR: Nathan Kilgore
 ASSIGNMENT: Week1 Part1 Assignment: Programming Challenge
 """
