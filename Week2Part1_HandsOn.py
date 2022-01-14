@@ -103,7 +103,8 @@ for line in readInputFile:
 readInputFile.close()
 writeOutputFile.close()
 
-print(f"\n'{filename1} is saved and copied to {filename2}, also saved. Good-Bye.")
+print(f"""\n'{filename1}' is saved and copied to '{filename2}', also saved.
+Good-Bye.""")
 
 
 #From Pg. 166 of the text:
@@ -152,4 +153,4 @@ for words in alphabeticalOrder:
     print(words)
     
 readInputFile.close()
-print(f"\n'{filename1} is saved and now closed.\nGood-Bye.")
+print(f"\n'{filename1}' is saved and now closed.\nGood-Bye.")
