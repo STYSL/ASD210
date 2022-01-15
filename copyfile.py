@@ -7,7 +7,6 @@ Complete project 8: Write a script named copyfile.py. This script should prompt 
 """
 #import os to use clearConsole method:
 import os
-
 #clearConsole clears screen output
 def clearConsole():
     command = 'clear'
