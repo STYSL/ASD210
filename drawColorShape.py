@@ -66,5 +66,6 @@ while True:
     y = int(input("Enter the 'y' coordinate for where bottom left of drawing will begin: "))
     coordinates.append(y)
     tuple(coordinates) #CAST LIST AS A TUPLE
-    #CALL THE DRAWBUTTON FUNCTION, PASS IN THE T, BTNWIDTH, height, AND BLCOORDINATES ARGUMENTS:
+    #CALL THE DRAWBUTTON FUNCTION, PASS IN THE T, WIDTH, HEIGHT, STROKE, FILL, AND COORDINATES:
     drawButton(t, width, height, stroke, fill, coordinates)
+    
