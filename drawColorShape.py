@@ -1,10 +1,3 @@
-"""
-CIAT Class:  ASD210 Fundamentals of Python - First Programs
-STUDENT: Felicito A. Rustique
-INSTRUCTOR: Nathan Kilgore
-ASSIGNMENT: Week3 Part1 Discussion
-"""
-
 #IMPORT TURTLE FROM TURTLE LIBRARY 
 from turtle import Turtle
 
@@ -18,14 +11,6 @@ def clearConsole():
         command = 'cls'
     os.system(command)
 clearConsole()
-
-"""
-Discussion Topic #2:
-Write a function that uses the turtle module to draw a simple button (i.e. "Submit" button).
-The function should receive the width and height of the button to be drawn, 
-as well as the x and y coordinates of the bottom-left corner. 
-Explain and share your code in this discussion.
-"""
 
 #WRITE A FUNCTION USING THE TURTLE MODULE TO DRAW A SIMPLE BUTTON:
 #FUNCTION HAS 6 PARAMETERS:
