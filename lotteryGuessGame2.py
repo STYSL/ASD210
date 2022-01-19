@@ -19,20 +19,20 @@ clearConsole()
 
 #GENERATE 15 RANDOM NUMBERS RANGING FROM 1 TO 99:
 lottoNumbers = []
-loopNumber = 1
-while loopNumber < 16:
+while len(lottoNumbers) < 16:
     number = random.randint(1, 99)
     lottoNumbers.append(number)
-    #ENSURE NO RANDOM NUMBERS ADDED INTO ARRAY ARE DUPLICATES:
-    #YOU NEED TO COMPARE THE NUMBER JUST GENERATED WITH THE NUMBERS BEFORE IT,
-    #WHICH ARE ALL THE NUMBES IN THE ARRAY LENGTH, MINUS ONE:
-    for i in range(len(lottoNumbers)-1): 
-        if number == lottoNumbers[i]:
+    #ENSURE NO RANDOM NUMBERS ADDED INTO LIST ARE DUPLICATES:
+    #LOOP THROUGH THE LIST ONE LESS THAN THEN TOTAL LENGTH OF THE LIST
+    #BECAUSE YOU DON'T HAVE TO COMPARE THE LAST NUMBER WITH ITSELF.
+    #USE SELF INCREMENTING INDEX TO GET EACH NUMBER TO COMPARE WITH LAST NUMBER ADDED.
+    index = 0
+    for numbers in range(len(lottoNumbers)-1):
+        if lottoNumbers[index] == lottoNumbers[-1]:
             lottoNumbers.remove(number)
-            continue
-    else:
-        loopNumber += 1
-        continue
+        index += 1
+
+    
   
 #GROUP THE RANDOM NUMBERS INTO 3 SETS OF 5:
 set1 = lottoNumbers[0:5] #First 5 numbers
